@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.1.0.schema.json
+
+PackageIdentifier: supermerill.SuperSlicer
+PackageVersion: 2.3.57.12
+PackageLocale: en-US
+Author: supermerill
+Publisher: supermerill
+PackageName: SuperSlicer
+PackageUrl: https://www.blender.org
+License:  AGPL v3
+LicenseUrl: https://github.com/supermerill/SuperSlicer/blob/master/LICENSE
+Copyright: Copyright© 2021 SuperSlicer
+#CopyrightUrl: 
+ShortDescription: G-code generator for 3D printers (Prusa, Voron, Creality, etc.)
+# Description: 
+Moniker: superslicer
+Tags:
+- 3d printing
+# Agreements: 
+# ReleaseNotes: 
+# ReleaseNotesUrl: 
+ManifestType: defaultLocale
+ManifestVersion: 1.1.0

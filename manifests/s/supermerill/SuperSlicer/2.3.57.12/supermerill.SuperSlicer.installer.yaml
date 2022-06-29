@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+
+PackageIdentifier: supermerill.SuperSlicer
+PackageVersion: 2.3.57.12
+InstallerLocale: en-US
+MinimumOSVersion: 10.0.0.0
+InstallerType: zip
+Scope: machine
+# InstallModes:
+UpgradeBehavior: uninstallPrevious
+FileExtensions:
+- 3mf
+- amf
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/supermerill/SuperSlicer/releases/download/2.3.57.12/SuperSlicer_2.3.57.12_win64_220401.zip
+  InstallerSha256: 83C4563FEC58C1BB59F0433FDB98794681D36E2CF7DAC5DB7BB515EF65E80996
+ManifestType: installer
+ManifestVersion: 1.1.0
